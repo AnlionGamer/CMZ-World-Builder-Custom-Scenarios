@@ -1,10 +1,12 @@
 # CMZ World Builder Custom Scenarios
 
-Official Custom Scenarios for **CastleMiner Z World Builder**.
+Community-made Custom Scenarios for **CastleMiner Z World Builder**.
+
+> **Independent community project:** CMZ World Builder and the Custom Scenarios in this repository are community-made projects. They are not official CastleMiner Z releases and are not affiliated with or endorsed by CastleMiner Z's developers or publisher.
 
 This repository is the public home for finished, release-ready `.cmzscenario` projects intended for CastleMiner Z 1.9.9.8 and the CMZ World Builder ecosystem.
 
-## Official scenarios
+## Released scenarios
 
 | Scenario | Current version | Status | Description |
 | --- | ---: | --- | --- |
@@ -20,7 +22,7 @@ Future finished Custom Scenarios will be added to this catalog as they pass rele
 - Finished downloadable `.cmzscenario` files and their SHA-256 files are published through GitHub Releases.
 - Public scenario metadata, documentation, checksums, and release history are kept under `Scenarios/<Scenario-Name>/`.
 - Each scenario keeps its own version number and release history.
-- Custom Scenarios remain separate from the CMZ World Builder itself; World Builder is the tool/framework that loads and generates them.
+- Custom Scenarios remain separate from CMZ World Builder itself; World Builder is the community-made tool/framework that loads and generates them.
 
 ## Compatibility
 
@@ -30,7 +32,7 @@ Unless a scenario states otherwise:
 - **Tool:** CMZ World Builder 1.1.2 or newer
 - **Scenario package:** `.cmzscenario`
 
-A scenario may declare its required world-generation foundation in `scenario.json`, including `worldGeneration.base = official-cmz` when it requires the validated normal CastleMiner Z foundation.
+A scenario may declare `worldGeneration.base = official-cmz` in `scenario.json`. **`official-cmz` is an internal World Builder protocol identifier** for the validated stock-compatible CastleMiner Z Normal World foundation. It does not indicate affiliation, endorsement, or official CastleMiner Z status.
 
 ## Downloads
 
