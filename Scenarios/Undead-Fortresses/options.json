@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "id": "world-fortresses",
+      "title": "Undead Fortress Territories",
+      "description": "Generate deterministic undead fortresses throughout CastleMiner Z's normal progression from the starting regions through the end of the first full Hell ring. The scenario always uses a 5,200m maximum authored radius.",
+      "options": [
+        {
+          "id": "fortress-density",
+          "type": "choice",
+          "label": "Fortress density",
+          "description": "Controls how frequently fortresses are distributed through the authored 5,200m radius. Higher densities create more persistent CastleMiner Z world data and can increase generation, loading, and multiplayer synchronization work.",
+          "default": "standard",
+          "choices": [
+            { "value": "sparse", "label": "Sparse" },
+            { "value": "standard", "label": "Standard" },
+            { "value": "dense", "label": "Dense" },
+            { "value": "very-dense", "label": "Very Dense" }
+          ]
+        },
+        {
+          "id": "near-start-fortress",
+          "type": "checkbox",
+          "label": "Fortress Near Spawn",
+          "description": "When enabled, deliberately guarantees one suitable fortress near the starting region while retaining the scenario's terrain, spacing, structure, and boundary checks. When disabled, the starting area remains protected from that guaranteed placement.",
+          "default": true
+        },
+        {
+          "id": "include-small",
+          "type": "checkbox",
+          "label": "Include small archetypes",
+          "description": "Enables the ten 49 x 49 small fortress archetypes.",
+          "default": true
+        },
+        {
+          "id": "include-medium",
+          "type": "checkbox",
+          "label": "Include medium archetypes",
+          "description": "Enables the ten 69 x 69 medium fortress archetypes. Medium fortresses remain available as a fallback when a larger site cannot fit safely.",
+          "default": true
+        },
+        {
+          "id": "include-large",
+          "type": "checkbox",
+          "label": "Include large archetypes",
+          "description": "Enables the ten 97 x 97 large fortress archetypes, including substantial Hell-region anchors when placement permits.",
+          "default": true
+        },
+        {
+          "id": "fixed-range",
+          "type": "information",
+          "label": "Fortress generation always extends through 5,200m",
+          "description": "Distance is scenario-defined rather than a player setting. 5,200m is the end of CastleMiner Z's first full Hell ring in the stock terrain progression."
+        },
+        {
+          "id": "multiplayer-scale",
+          "type": "warning",
+          "label": "Higher density creates more persisted world data",
+          "description": "CastleMiner Z advertises persisted chunk IDs to joining players. Very Dense remains supported, but no universal multiplayer-safe persisted-chunk threshold has been established. Use World Builder's World Inspection measurements when evaluating generated worlds."
+        }
+      ]
+    },
+    {
+      "id": "fortress-content",
+      "title": "Native Encounters and Rewards",
+      "description": "Room results are deterministic from the world seed, fortress identity, room role, archetype, and regional progression.",
+      "options": [
+        {
+          "id": "native-encounters",
+          "type": "checkbox",
+          "label": "Include native enemy and boss spawners",
+          "description": "Uses ordinary CastleMiner Z standard, rare, Hell, and boss spawner blocks. Alien spawners are excluded.",
+          "default": true
+        },
+        {
+          "id": "native-loot",
+          "type": "checkbox",
+          "label": "Include native Loot and Lucky Loot Blocks",
+          "description": "Uses ordinary CastleMiner Z Loot Blocks and Lucky Loot Blocks.",
+          "default": true
+        },
+        {
+          "id": "allow-mirroring",
+          "type": "checkbox",
+          "label": "Allow audited mirrored layouts",
+          "description": "Adds deterministic mirror variants while preserving the established reachability, doorway, tower, roof-deck, wall-walk, gatehouse, bastion, and support audits.",
+          "default": true
+        },
+        {
+          "id": "generation-diagnostics",
+          "type": "checkbox",
+          "label": "Write detailed generation audit",
+          "description": "Adds UndeadFortresses_Generation_Audit.txt with placement, fitting, chunk-preflight, block-edit, boundary, and rejection telemetry beside the scenario report.",
+          "default": true
+        },
+        {
+          "id": "room-probabilities",
+          "type": "information",
+          "label": "Eligible-room baseline: 43% enemy spawner, 27% Loot Block, 10% Lucky Loot Block, 20% empty",
+          "description": "Each eligible room receives exactly one result. Size caps limit excessive spawners and Lucky Loot Blocks, and every fortress receives at least one populated non-boss room."
+        }
+      ]
+    }
+  ]
+}
