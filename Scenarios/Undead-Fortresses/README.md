@@ -5,12 +5,14 @@
 **Minimum World Builder:** v1.1.2  
 **Scenario ID:** `undead-fortresses`
 
-Undead Fortresses is an official CastleMiner Z World Builder Custom Scenario. It generates deterministic native-block fortresses throughout a normal CastleMiner Z world, from the starting regions through the end of the first full Hell ring.
+Undead Fortresses is a community-made Custom Scenario for the community-developed CMZ World Builder. It is not an official CastleMiner Z release and is not affiliated with or endorsed by CastleMiner Z's developers or publisher.
+
+It generates deterministic native-block fortresses throughout a normal CastleMiner Z world, from the starting regions through the end of the first full Hell ring.
 
 ## v1.3.2 highlights
 
 - Fixed **5,200m** authored radius through the end of the first full Hell ring.
-- Uses World Builder's `official-cmz` normal-world foundation.
+- Uses World Builder's `official-cmz` technical foundation mode — the internal identifier for its validated stock-compatible CastleMiner Z Normal World foundation, not a statement of official status or endorsement.
 - Terrain-integrated **Rock foundations** outside Hell instead of a universal Bloodstone structural layer.
 - Deep terrain gaps use a two-layer Rock deck with terrain-connected support piers rather than large packed filler volumes.
 - Coverage-balanced fortress distribution removes the old fixed-bearing star/spoke pattern while retaining deterministic progression-aware placement.
@@ -46,9 +48,9 @@ Download the finished `.cmzscenario` and matching SHA-256 checksum from this rep
 SHA-256:
 
 ```text
-BFAF207F276EFF3123D9A919C4C43A16639147E9B4347FB34BC2BC9060E0F910
+A5735DBAD31A87FC38330942EEF827962A5A9B40C004B6A69748FFB00415AA97
 ```
 
 ## Repository contents
 
-This directory contains the public metadata and documentation carried by the audited release package. Development builders and private build tooling are intentionally excluded from this repository.
+This directory contains public metadata and documentation for the audited release package. Development builders and private build tooling are intentionally excluded from this repository.
