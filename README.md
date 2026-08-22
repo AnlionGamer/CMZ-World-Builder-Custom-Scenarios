@@ -2,7 +2,7 @@
 
 Community-made Custom Scenarios for **CastleMiner Z World Builder**.
 
-> **Independent community project:** CMZ World Builder and the Custom Scenarios in this repository are community-made projects. They are not official CastleMiner Z releases and are not affiliated with or endorsed by CastleMiner Z's developers or publisher.
+> **Independent community project:** CMZ World Builder and the Custom Scenarios in this repository are community-made projects. They are not official CastleMiner Z releases and are not affiliated with, sponsored by, approved by, or endorsed by CastleMiner Z's developers or publisher.
 
 This repository is the public home for finished, release-ready `.cmzscenario` projects intended for CastleMiner Z 1.9.9.8 and the CMZ World Builder ecosystem.
 
@@ -20,9 +20,10 @@ Future finished Custom Scenarios will be added to this catalog as they pass rele
 - Development builders, builder archives, private build tooling, test candidates, intermediate outputs, and temporary diagnostics are not committed.
 - A scenario is added here only after its generated `.cmzscenario` passes its release-ready package audit.
 - Finished downloadable `.cmzscenario` files and their SHA-256 files are published through GitHub Releases.
-- Public scenario metadata, documentation, checksums, and release history are kept under `Scenarios/<Scenario-Name>/`.
+- Public scenario metadata, documentation, checksums, license/notice information, and release history are kept under `Scenarios/<Scenario-Name>/`.
 - Each scenario keeps its own version number and release history.
 - Custom Scenarios remain separate from CMZ World Builder itself; World Builder is the community-made tool/framework that loads and generates them.
+- Future release-ready `.cmzscenario` packages should carry their applicable license and project notice inside the package so those terms remain attached when the package is shared separately from GitHub.
 
 ## Compatibility
 
@@ -32,7 +33,17 @@ Unless a scenario states otherwise:
 - **Tool:** CMZ World Builder 1.1.2 or newer
 - **Scenario package:** `.cmzscenario`
 
-A scenario may declare `worldGeneration.base = official-cmz` in `scenario.json`. **`official-cmz` is an internal World Builder protocol identifier** for the validated stock-compatible CastleMiner Z Normal World foundation. It does not indicate affiliation, endorsement, or official CastleMiner Z status.
+A scenario may declare `worldGeneration.base = official-cmz` in `scenario.json`. **`official-cmz` is an internal World Builder protocol identifier** for the validated stock-compatible CastleMiner Z Normal World foundation. It does not indicate affiliation, sponsorship, endorsement, or official CastleMiner Z status.
+
+## License
+
+Unless a scenario or file expressly states different terms, original material authored by **AnlionGamer** in this repository is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE`](LICENSE).
+
+The license permits community use, study, modification, free forks, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use.
+
+Independently created scenarios and contributions remain the property of their own authors and may use their own documented license. Compatibility with World Builder alone does not transfer ownership to AnlionGamer.
+
+See [`NOTICE.md`](NOTICE.md) for repository identity, attribution, and CastleMiner Z rights information.
 
 ## Downloads
 
