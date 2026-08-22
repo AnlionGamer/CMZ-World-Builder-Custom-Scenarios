@@ -1,6 +1,8 @@
 # Undead Fortresses v1.3.2 — Release Notes
 
-Undead Fortresses v1.3.2 is the first official release published in the CMZ World Builder Custom Scenarios repository.
+Undead Fortresses v1.3.2 is the first public Custom Scenario release published in the CMZ World Builder Custom Scenarios repository.
+
+> **Community-made project:** Undead Fortresses and CMZ World Builder are not official CastleMiner Z releases and are not affiliated with or endorsed by CastleMiner Z's developers or publisher.
 
 ## Main changes
 
@@ -23,10 +25,14 @@ Undead Fortresses v1.3.2 is the first official release published in the CMZ Worl
 - Native CastleMiner Z persisted world data
 - Vanilla-client compatibility after generation
 
+## Technical foundation identifier
+
+The scenario declares `worldGeneration.base = official-cmz`. `official-cmz` is an internal CMZ World Builder protocol identifier for its validated stock-compatible CastleMiner Z Normal World foundation. It is not a claim of official CastleMiner Z status, affiliation, or endorsement.
+
 ## Release artifact
 
 `CMZ_Undead_Fortresses_v1.3.2.cmzscenario`
 
 SHA-256:
 
-`BFAF207F276EFF3123D9A919C4C43A16639147E9B4347FB34BC2BC9060E0F910`
+`A5735DBAD31A87FC38330942EEF827962A5A9B40C004B6A69748FFB00415AA97`
