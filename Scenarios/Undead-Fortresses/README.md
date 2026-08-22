@@ -5,14 +5,14 @@
 **Minimum World Builder:** v1.1.2  
 **Scenario ID:** `undead-fortresses`
 
-Undead Fortresses is a community-made Custom Scenario for the community-developed CMZ World Builder. It is not an official CastleMiner Z release and is not affiliated with or endorsed by CastleMiner Z's developers or publisher.
+> **Unofficial community project:** Undead Fortresses is independently created and published by AnlionGamer for the community-developed CMZ World Builder. It is not an official CastleMiner Z release and is not affiliated with, sponsored by, approved by, or endorsed by CastleMiner Z's developers or publisher.
 
 It generates deterministic native-block fortresses throughout a normal CastleMiner Z world, from the starting regions through the end of the first full Hell ring.
 
 ## v1.3.2 highlights
 
 - Fixed **5,200m** authored radius through the end of the first full Hell ring.
-- Uses World Builder's `official-cmz` technical foundation mode — the internal identifier for its validated stock-compatible CastleMiner Z Normal World foundation, not a statement of official status or endorsement.
+- Uses World Builder's `official-cmz` technical foundation mode — the internal identifier for its validated stock-compatible CastleMiner Z Normal World foundation, not a statement of official status, affiliation, sponsorship, or endorsement.
 - Terrain-integrated **Rock foundations** outside Hell instead of a universal Bloodstone structural layer.
 - Deep terrain gaps use a two-layer Rock deck with terrain-connected support piers rather than large packed filler volumes.
 - Coverage-balanced fortress distribution removes the old fixed-bearing star/spoke pattern while retaining deterministic progression-aware placement.
@@ -36,6 +36,16 @@ The release-final functional generator behavior was validated in CastleMiner Z 1
 - 2,802 / 2,802 protected-save files were valid/readable with 0 warnings.
 
 An earlier v1.3.0 Very Dense + Fortress Near Spawn world also sustained a public-host session exceeding five hours with 8 unique remote players, 11 join events, 3 rejoins, and a peak of 4 simultaneous remote players. That earlier session is supporting evidence for the scenario's native-world architecture, not a universal multiplayer stability guarantee for every v1.3.2 world.
+
+## License and Attribution
+
+Undead Fortresses is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE.md`](LICENSE.md).
+
+The license permits community use, study, modification, free forks, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use. Monetized videos, guides, and streams are allowed, and voluntary donations are allowed when payment is not required for access.
+
+Castle Miner Z and its original game material remain the property of their respective rights holders. See [`NOTICE.md`](NOTICE.md) for project attribution and the full affiliation notice.
+
+Future `.cmzscenario` release packages should carry the applicable license and project notice inside the package so the terms remain attached when the scenario is shared separately from GitHub.
 
 ## Downloads
 
