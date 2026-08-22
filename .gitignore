@@ -1,0 +1,23 @@
+# Development builders and private build tooling
+**/Builder/
+**/*Builder*.zip
+**/*_Official_*Builder*.zip
+
+# Generated/intermediate output directories
+**/OUTPUT/
+**/_build_work/
+**/build/
+**/dist/
+
+# Test and development candidates
+**/*TEST_CANDIDATE*
+**/*Test_Candidate*
+**/*test_candidate*
+**/*DEV*
+**/*Dev*
+
+# Temporary diagnostics / local tooling artifacts
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
