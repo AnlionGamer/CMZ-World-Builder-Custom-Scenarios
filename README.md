@@ -37,9 +37,11 @@ A scenario may declare `worldGeneration.base = official-cmz` in `scenario.json`.
 
 ## License
 
-Unless a scenario or file expressly states different terms, original material authored by **AnlionGamer** in this repository is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE`](LICENSE).
+Unless a scenario or file expressly states different terms, original material authored by **AnlionGamer** in this repository is governed by the **AnlionGamer Community Distribution Terms v1.0**. See [`LICENSE`](LICENSE).
 
-The license permits community use, study, modification, free forks, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use.
+The terms allow normal use, source inspection, and private modification. Public redistribution of AnlionGamer-authored project material, packaged scenarios, forks, or modified versions requires **prior permission from AnlionGamer** and must remain **non-commercial**. Sale and paid access are prohibited without separate permission.
+
+Copies already distributed under earlier documented terms retain the permissions that accompanied those copies; changing the repository license does not revoke earlier grants.
 
 Independently created scenarios and contributions remain the property of their own authors and may use their own documented license. Compatibility with World Builder alone does not transfer ownership to AnlionGamer.
 
