@@ -39,9 +39,11 @@ An earlier v1.3.0 Very Dense + Fortress Near Spawn world also sustained a public
 
 ## License and Attribution
 
-Undead Fortresses is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE.md`](LICENSE.md).
+The current repository copy and future Undead Fortresses work are governed by the **AnlionGamer Community Distribution Terms v1.0**. See [`LICENSE.md`](LICENSE.md).
 
-The license permits community use, study, modification, free forks, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use. Monetized videos, guides, and streams are allowed, and voluntary donations are allowed when payment is not required for access.
+The terms allow normal use, source inspection, and private modification. Public redistribution of the scenario, its source/material, packaged scenario, forks, or modified versions requires **prior permission from AnlionGamer** and must remain **non-commercial**. Sale and paid access are prohibited without separate permission.
+
+Copies already distributed under earlier documented terms retain the permissions that accompanied those copies; changing the repository license does not revoke earlier grants made to previously distributed copies of v1.3.2 or earlier versions.
 
 Castle Miner Z and its original game material remain the property of their respective rights holders. See [`NOTICE.md`](NOTICE.md) for project attribution and the full affiliation notice.
 
