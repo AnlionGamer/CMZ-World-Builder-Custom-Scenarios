@@ -4,9 +4,11 @@
 
 **Undead Fortresses** was conceived, directed, and released by **AnlionGamer** as a community-made Custom Scenario for CMZ World Builder.
 
-The scenario is distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See `LICENSE.md` for the controlling terms.
+The current repository copy and future Undead Fortresses work are governed by the **AnlionGamer Community Distribution Terms v1.0**. See `LICENSE.md` for the controlling terms.
 
-When redistributing the scenario or a permitted modified version, preserve the license, this notice, reasonable credit to **AnlionGamer** as the original creator, and clear identification of modified or forked versions.
+Public redistribution of scenario material or modified versions governed by the current terms requires prior permission from **AnlionGamer** and must remain non-commercial. Any permitted redistribution must preserve the applicable license, this notice, reasonable attribution, and clear identification of modifications.
+
+Copies already distributed under earlier documented terms retain the permissions that accompanied those copies.
 
 ## Castle Miner Z and CMZ World Builder
 
@@ -18,4 +20,4 @@ The `official-cmz` value used by the scenario manifest is an internal CMZ World 
 
 ## Distribution identity
 
-Only Undead Fortresses releases published by AnlionGamer through an expressly designated project distribution location should be represented as original AnlionGamer releases. Forks and modified packages must be clearly identified as modified and must not imply endorsement that has not been granted.
+Only Undead Fortresses releases published by AnlionGamer through an expressly designated project distribution location should be represented as original AnlionGamer releases. Modified or redistributed packages must not imply approval or endorsement that has not been granted.
