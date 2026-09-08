@@ -10,7 +10,11 @@ References to CastleMiner Z, CMZ, stock game behavior, or the internal World Bui
 
 ## Original work
 
-Unless a scenario or file expressly states different terms, original material authored by **AnlionGamer** in this repository is governed by the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See `LICENSE`.
+Unless a scenario or file expressly states different terms, original material authored by **AnlionGamer** in this repository is governed by the **AnlionGamer Community Distribution Terms v1.0**. See `LICENSE`.
+
+Public redistribution of AnlionGamer-authored project material or modified versions governed by the current terms requires prior permission from **AnlionGamer** and must remain non-commercial. Any permitted redistribution must preserve the applicable license, project notice, reasonable attribution, and clear identification of modifications.
+
+Copies already distributed under earlier documented terms retain the permissions that accompanied those copies.
 
 Independently created scenarios or contributions may use their own documented license. Merely targeting CMZ World Builder does not transfer ownership of an independent author's original work to AnlionGamer.
 
@@ -20,4 +24,4 @@ Castle Miner Z, its name, game content, executable code, assets, and other origi
 
 ## Distribution identity
 
-Only scenario releases actually published by their identified author through an expressly designated distribution location should be represented as that author's original release. Forks and modified packages must be clearly identified as modified and must not imply endorsement that has not been granted.
+Only scenario releases actually published by their identified author through an expressly designated distribution location should be represented as that author's original release. Modified or redistributed packages must not imply approval or endorsement that has not been granted.
