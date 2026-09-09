@@ -19,8 +19,9 @@ Future finished Custom Scenarios will be added to this catalog as they pass rele
 - Only finished Custom Scenario projects belong in this repository.
 - Development builders, builder archives, private build tooling, test candidates, intermediate outputs, and temporary diagnostics are not committed.
 - A scenario is added here only after its generated `.cmzscenario` passes its release-ready package audit.
-- Finished downloadable `.cmzscenario` files and their SHA-256 files are published through GitHub Releases.
-- Public scenario metadata, documentation, checksums, license/notice information, and release history are kept under `Scenarios/<Scenario-Name>/`.
+- Finished downloadable `.cmzscenario` files are published through GitHub Releases.
+- GitHub's SHA-256 digest for each uploaded release asset is the authoritative public checksum for that file.
+- Public scenario metadata, documentation, license/notice information, and release history are kept under `Scenarios/<Scenario-Name>/`.
 - Each scenario keeps its own version number and release history.
 - Custom Scenarios remain separate from CMZ World Builder itself; World Builder is the community-made tool/framework that loads and generates them.
 - Future release-ready `.cmzscenario` packages should carry their applicable license and project notice inside the package so those terms remain attached when the package is shared separately from GitHub.
@@ -47,9 +48,11 @@ Independently created scenarios and contributions remain the property of their o
 
 See [`NOTICE.md`](NOTICE.md) for repository identity, attribution, and CastleMiner Z rights information.
 
-## Downloads
+## Downloads and integrity
 
-Use this repository's **Releases** page for finished `.cmzscenario` files and matching SHA-256 checksum files.
+Use this repository's **Releases** page for finished `.cmzscenario` files. GitHub automatically publishes a SHA-256 digest for each uploaded release asset; that displayed digest is the authoritative public checksum.
+
+This repository does not separately publish manual release-file checksums. SHA-256 values used inside scenario/package metadata remain technical integrity data and are not alternate public release checksums.
 
 ## Related project
 
