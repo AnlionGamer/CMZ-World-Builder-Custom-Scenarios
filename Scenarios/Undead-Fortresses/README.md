@@ -53,13 +53,9 @@ Future `.cmzscenario` release packages should carry the applicable license and p
 
 Download the finished `.cmzscenario` from this repository's GitHub Releases page.
 
-## Release artifact and integrity
+## Release artifact
 
 `CMZ_Undead_Fortresses_v1.3.2.cmzscenario`
-
-GitHub automatically publishes the SHA-256 digest for the uploaded release asset. The digest displayed by GitHub on the **Releases** page is the authoritative public checksum for that file.
-
-This repository does not separately publish a manual release-file checksum. SHA-256 values used inside scenario/package metadata remain technical integrity data and are not alternate public release checksums.
 
 ## Repository contents
 
