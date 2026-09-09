@@ -29,10 +29,8 @@ Undead Fortresses v1.3.2 is the first public Custom Scenario release published i
 
 The scenario declares `worldGeneration.base = official-cmz`. `official-cmz` is an internal CMZ World Builder protocol identifier for its validated stock-compatible CastleMiner Z Normal World foundation. It is not a claim of official CastleMiner Z status, affiliation, or endorsement.
 
-## Release artifact
+## Release artifact and integrity
 
 `CMZ_Undead_Fortresses_v1.3.2.cmzscenario`
 
-SHA-256:
-
-`A5735DBAD31A87FC38330942EEF827962A5A9B40C004B6A69748FFB00415AA97`
+GitHub automatically publishes the SHA-256 digest for the uploaded release asset. The digest displayed by GitHub on the **Releases** page is the authoritative public checksum for that file.
